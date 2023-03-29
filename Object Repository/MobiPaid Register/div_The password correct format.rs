@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_The password correct format</name>
+   <tag></tag>
+   <elementGuidId>bb0a4960-fe2c-42d2-8c6b-2e8dd53c8a23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#error</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='error']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'error' and (text() = 'The password field should have at least one lowercase letter, one uppercase letter, one digit, one special character, and is at least 8 characters long.' or . = 'The password field should have at least one lowercase letter, one uppercase letter, one digit, one special character, and is at least 8 characters long.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>19604d09-9acc-4825-ac47-6201cfe6ed04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>error</value>
+      <webElementGuid>a8d1338c-cb95-4886-8bdf-4b415fafbb08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-danger col-lg-12 animated fadeInDown</value>
+      <webElementGuid>30a09c93-14fb-4230-97d5-14d0026d7eee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The password field should have at least one lowercase letter, one uppercase letter, one digit, one special character, and is at least 8 characters long.</value>
+      <webElementGuid>55122f31-3302-4da5-8569-21cc1ea0720b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;error&quot;)</value>
+      <webElementGuid>120b401c-bcbe-4545-909f-69553eb2a022</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='error']</value>
+      <webElementGuid>92d4b2f8-4d5a-4692-bdb4-0e3f1180e8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password recovery'])[1]/preceding::div[29]</value>
+      <webElementGuid>b8a60c87-09bb-49fd-9be2-50307e2b8292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/preceding::div[32]</value>
+      <webElementGuid>33e12669-a5ba-4f24-a01b-47354cbde7e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]</value>
+      <webElementGuid>36bb1420-69e1-4f06-a36d-8eee64413a0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'error' and (text() = 'The password field should have at least one lowercase letter, one uppercase letter, one digit, one special character, and is at least 8 characters long.' or . = 'The password field should have at least one lowercase letter, one uppercase letter, one digit, one special character, and is at least 8 characters long.')]</value>
+      <webElementGuid>64552375-ca8b-4ba3-8404-4580dd83b814</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
