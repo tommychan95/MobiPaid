@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG001 - User want to create MobiPaid Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>365c95d6-738f-473a-991c-3376f43947bd</testCaseGuid>
+</TestCaseEntity>
