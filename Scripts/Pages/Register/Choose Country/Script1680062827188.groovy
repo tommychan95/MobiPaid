@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('MobiPaid Register/select_Your country'))
+WebUI.click(findTestObject('MobiPaid Register/Page_Register/select_Your country'))
 
-WebUI.sendKeys(findTestObject('MobiPaid Register/select_Your country'), 'Indonesia')
+WebUI.scrollToElement(findTestObject('MobiPaid Register/Page_Register/select_Your country'), 1)
+
+WebUI.sendKeys(findTestObject('MobiPaid Register/Page_Register/select_Your country'), 'South Africa')
 
