@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Chrome 112.0.0.0,,,2023-04-22 15:39:42,2023-04-22 15:40:50,1m - 7.927s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Register/REG001 - User want to create MobiPaid Account,Chrome 112.0.0.0,,,2023-04-22 15:39:42,2023-04-22 15:40:12,29.654s,PASSED
+"openBrowser(""https://stage.mobipaid.com/en/register"")",Chrome 112.0.0.0,,,2023-04-22 15:39:43,2023-04-22 15:39:51,8.502s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-22 15:39:51,2023-04-22 15:39:52,0.516s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input First Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:39:52,2023-04-22 15:39:54,1.913s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Last Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:39:54,2023-04-22 15:39:56,2.053s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Email""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:39:56,2023-04-22 15:39:58,2.131s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Password""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:39:58,2023-04-22 15:39:59,1.424s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Company Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:39:59,2023-04-22 15:40:01,1.939s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Phone Number""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:01,2023-04-22 15:40:03,1.972s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Choose Country""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:03,2023-04-22 15:40:06,2.470s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Click Agreement Box""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:06,2023-04-22 15:40:07,1.407s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Click Next Step Button""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:07,2023-04-22 15:40:09,1.999s,PASSED
+"verifyElementPresent(findTestObject(""MobiPaid Register/div_Account successfully created""), 1)",Chrome 112.0.0.0,,,2023-04-22 15:40:09,2023-04-22 15:40:11,1.789s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-22 15:40:11,2023-04-22 15:40:12,0.978s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Register/REG002 - User want to create account while leave the field blank,Chrome 112.0.0.0,,,2023-04-22 15:40:12,2023-04-22 15:40:32,19.942s,PASSED
+"openBrowser(""https://merchant.mobipaid.com/en/register"")",Chrome 112.0.0.0,,,2023-04-22 15:40:12,2023-04-22 15:40:20,7.490s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-22 15:40:20,2023-04-22 15:40:20,0.488s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input First Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:20,2023-04-22 15:40:21,1.227s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Last Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:21,2023-04-22 15:40:23,1.762s,PASSED
+"sendKeys(findTestObject(""MobiPaid Register/input_Login_email""), ""tommy.chaniago98@gmail.com"")",Chrome 112.0.0.0,,,2023-04-22 15:40:23,2023-04-22 15:40:25,1.785s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Password""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:25,2023-04-22 15:40:26,0.772s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Company Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:26,2023-04-22 15:40:27,1.100s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Choose Country""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:27,2023-04-22 15:40:30,2.740s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Click Agreement Box""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:30,2023-04-22 15:40:30,0.562s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Click Next Step Button""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:30,2023-04-22 15:40:31,0.620s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-22 15:40:31,2023-04-22 15:40:32,0.929s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Register/REG003 - User want to create account using incorrect password format,Chrome 112.0.0.0,,,2023-04-22 15:40:32,2023-04-22 15:40:50,17.929s,PASSED
+"openBrowser(""https://merchant.mobipaid.com/en/register"")",Chrome 112.0.0.0,,,2023-04-22 15:40:32,2023-04-22 15:40:39,6.376s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-22 15:40:39,2023-04-22 15:40:39,0.381s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input First Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:39,2023-04-22 15:40:40,0.666s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Last Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:40,2023-04-22 15:40:40,0.749s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Email""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:40,2023-04-22 15:40:41,0.990s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Password 2""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:41,2023-04-22 15:40:43,1.582s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Company Name""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:43,2023-04-22 15:40:44,0.951s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Phone Number""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:44,2023-04-22 15:40:45,0.771s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Choose Country""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:45,2023-04-22 15:40:47,1.872s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Click Agreement Box""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:47,2023-04-22 15:40:47,0.604s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Click Next Step Button""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-22 15:40:47,2023-04-22 15:40:48,0.611s,PASSED
+"verifyElementPresent(findTestObject(""MobiPaid Register/div_The password correct format""), 1)",Chrome 112.0.0.0,,,2023-04-22 15:40:48,2023-04-22 15:40:49,0.999s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-22 15:40:49,2023-04-22 15:40:50,0.872s,PASSED
