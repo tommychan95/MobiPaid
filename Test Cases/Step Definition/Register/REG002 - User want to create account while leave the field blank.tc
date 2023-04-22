@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG002 - User want to create account while leave the field blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9045a5a-2b13-4101-84ec-411f0c7607e9</testCaseGuid>
+</TestCaseEntity>
